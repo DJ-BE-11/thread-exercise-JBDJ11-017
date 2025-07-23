@@ -26,7 +26,7 @@ public class Counter {
         }
 
         this.countMaxSize = countMaxSize;
-        this.count = 0l;
+        this.count = 0;
     }
 
     public void run() {
