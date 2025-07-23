@@ -28,7 +28,7 @@ public class Counter {
         this.countMaxSize = countMaxSize;
 
         //TODO#3 this.count 값을 0으로 초기화 합니다.
-        this.count = 0;
+        this.count = 0l;
     }
 
     public void run() {
@@ -52,7 +52,7 @@ public class Counter {
                 ex) name:my-thread, count:1
              */
             String name = Thread.currentThread().getName();
-            System.out.print("name : "+name+", count : "+count);
+            System.out.println("name : " + name + ", count : " + count);
 
         }while (count<countMaxSize);
     }
